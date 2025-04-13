@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Super Froth</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Super Froth</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="shop.html" class="active">Shop</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="cta-button small">Try Free</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Shop Hero -->
+    <section class="shop-hero">
+        <div class="container">
+            <h1 class="slide-up">Choose Your Plan</h1>
+            <p class="slide-up delay-1">Find the perfect Super Froth solution for your list-making needs.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="shop-products">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-badge">Most Popular</div>
+                    <img src="images/product-premium.png" alt="Super Froth Premium">
+                    <h3>Super Froth Premium</h3>
+                    <p class="price">$9.99/month</p>
+                    <ul>
+                        <li>Unlimited lists and items</li>
+                        <li>Advanced sharing options</li>
+                        <li>Priority customer support</li>
+                        <li>Exclusive features</li>
+                        <li>Cloud backup</li>
+                        <li>Cross-device sync</li>
+                    </ul>
+                    <button class="cta-button small add-to-cart" data-product="Premium Monthly">Add to Cart</button>
+                </div>
+                <div class="product-card highlighted">
+                    <div class="product-badge">Best Value</div>
+                    <img src="images/product-annual.png" alt="Super Froth Annual">
+                    <h3>Annual Membership</h3>
+                    <p class="price">$79.99/year</p>
+                    <p class="savings">Save 33%</p>
+                    <ul>
+                        <li>All Premium features</li>
+                        <li>2 months free</li>
+                        <li>Free onboarding session</li>
+                        <li>Early access to new features</li>
+                        <li>VIP customer support</li>
+                        <li>Exclusive webinars</li>
+                    </ul>
+                    <button class="cta-button small add-to-cart" data-product="Annual Membership">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/product-free.png" alt="Super Froth Free">
+                    <h3>Super Froth Free</h3>
+                    <p class="price">$0/month</p>
+                    <ul>
+                        <li>Up to 5 active lists</li>
+                        <li>Basic features</li>
+                        <li>Community support</li>
+                        <li>Great for trying out</li>
+                        <li>Single device</li>
+                        <li>Ad-supported</li>
+                    </ul>
+                    <a href="#" class="cta-button small">Get Free Version</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Comparison -->
+    <section class="feature-comparison">
+        <div class="container">
+            <h2>Plan Comparison</h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Free</th>
+                            <th>Premium</th>
+                            <th>Annual</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Number of lists</td>
+                            <td>5</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Items per list</td>
+                            <td>20</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Cloud Sync</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Priority Support</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Sharing</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Exclusive Features</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Onboarding Session</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-total">
+            <p>Total: <span>$0.00</span></p>
+            <button class="cta-button small checkout-btn">Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need Help Choosing?</h2>
+                <p>Our team can help you select the perfect Super Froth plan for your needs.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+18005551234" class="cta-button large">
+                        <i class="fas fa-phone"></i> Call Now: 080 1234-1234
+                    </a>
+                    <p class="cta-note">Available Monday-Friday, 9am-5pm EST</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Super Froth</h3>
+                    <p>Revolutionary list making technology for people living alone.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="shop.html">Features</a></li>
+                        <li><a href="shop.html">Pricing</a></li>
+                        <li><a href="#">Demo</a></li>
+                        <li><a href="#">Updates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html">Careers</a></li>
+                        <li><a href="about.html">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="privacy.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Super Froth. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
